@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+streamlit
+requests
+langchain
+langchain-openai
+langchain-text-splitters
+langgraph
+pymilvus
+FlagEmbedding
+celery
+redis
+aiohttp
+python-dotenv
+pydantic
+magic-pdf[full]
