@@ -21,7 +21,7 @@ magic-pdf[full]
 # 🐍 Venom: Scientific Paper CRAG Agent
 
 Venom 是一个面向学术论文的**纠正式检索增强生成（CRAG）Agent**。支持将双栏学术 PDF 注入本地 Milvus 向量数据库，进行带引用的精准问答。当本地知识库不足时，系统会自动 fallback 到 Semantic Scholar 进行学术检索。
-
+!项目演示图](img.png)
 ## 🚀 快速启动指南
 
 ### 1. 环境准备
