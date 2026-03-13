@@ -1,23 +1,3 @@
-================【请将以下内容保存为 requirements.txt】================
-fastapi
-uvicorn[standard]
-streamlit
-requests
-langchain
-langchain-openai
-langchain-text-splitters
-langgraph
-pymilvus
-FlagEmbedding
-celery
-redis
-aiohttp
-python-dotenv
-pydantic
-magic-pdf[full]
-
-
-================【请将以下内容保存为 README.md】================
 # 🐍 Venom: Scientific Paper CRAG Agent
 
 Venom 是一个面向学术论文的**纠正式检索增强生成（CRAG）Agent**。支持将双栏学术 PDF 注入本地 Milvus 向量数据库，进行带引用的精准问答。当本地知识库不足时，系统会自动 fallback 到 Semantic Scholar 进行学术检索。
