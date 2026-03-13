@@ -42,7 +42,7 @@ cp .env.example .env
 ```
 在 `.env` 中填入你的 API 密钥：
 ```ini
-deepseek_api_key = "sk-xxxxxxxxxxxxxxxx"
+api_key = "sk-xxxxxxxxxxxxxxxx"
 SEMANTIC_SCHOLAR_API_KEY = "your_key_here" # 选填，用于外网学术搜索
 ```
 
