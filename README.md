@@ -43,7 +43,7 @@ cp .env.example .env
 在 `.env` 中填入你的 API 密钥：
 ```ini
 api_key = "sk-xxxxxxxxxxxxxxxx"
-SEMANTIC_SCHOLAR_API_KEY = "your_key_here" # 选填，用于外网学术搜索（非常建议填，不填的话有频次限制开启网络代理容易触发429 limit，但是不开网络代理加载后端服务的时候连不上hugging face挂载不了MinerU，很麻烦）
+SEMANTIC_SCHOLAR_API_KEY = "your_key_here" # 选填，用于外网学术搜索（非常建议填，不填的话有频次限制开启网络代理容易触发429 limit，但是不开网络代理加载后端服务的时候连不上hugging face挂载不了BGE-M3，很麻烦）
 ```
 
 ### 4. PDF 解析模型配置 (MinerU)
